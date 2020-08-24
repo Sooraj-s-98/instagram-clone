@@ -5,7 +5,7 @@ const NavBar = ()=>{
     return(
         <nav>
         <div class="nav-wrapper white">
-          <Link to="/" class="brand-logo">Instagram</Link>
+          <Link to="/" class="brand-logo  left">Instagram</Link>
           <ul id="nav-mobile" class="right">
             <li><Link to="signin">signin</Link></li>
             <li><Link to="signup">signup</Link></li>
@@ -17,4 +17,4 @@ const NavBar = ()=>{
 }
 
 
-export default NavBar
+export default NavBar;
